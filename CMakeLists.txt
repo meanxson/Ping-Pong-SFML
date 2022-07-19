@@ -3,7 +3,7 @@ project(Ping_Pong_SFML)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Ping_Pong_SFML main.cpp)
+add_executable(Ping_Pong_SFML main.cpp Engine/InputHandler.cpp Engine/InputHandler.h Player/Player.cpp Player/Player.h)
 
 set(SFML_DIR "C:/SFML/lib/cmake/SFML")
 

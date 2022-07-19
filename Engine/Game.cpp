@@ -7,12 +7,15 @@
 Game::Game() {
     height = 800;
     width = 900;
+
     this->initWindow();
 }
 
-Game::Game(float width, float height) {
+Game::Game(float &width, float &height) {
     this->width = width;
     this->height = height;
+    this->initWindow();
+    this->initPlayer();
 }
 
 Game::~Game() {
@@ -24,10 +27,11 @@ Game &Game::update() {
     return *this;
 }
 
-//todo:Make render
 Game &Game::render() {
-    //todo: render Players
-    CircleShape rectangleShape(100.f);
+    firstPlayer->draw();
+    secondPlayer->draw();
+
+    window->display();
     return *this;
 }
 
@@ -89,8 +93,13 @@ void Game::pollEvent() {
 
 void Game::initWindow() {
     this->videoMode.height = this->height;
-    this->videoMode.width  = this->width;
-    this->window = new Window(this->videoMode, "Ping-Pong", Style::Titlebar | Style::Close);
+    this->videoMode.width = this->width;
+    this->window = new RenderWindow(this->videoMode, "Ping-Pong", Style::Titlebar | Style::Close);
+}
+
+void Game::initPlayer() {
+    this->firstPlayer = new Player(window);
+    this->secondPlayer = new Player(window);
 }
 
 bool Game::isGameRunning() {

@@ -79,14 +79,46 @@ CMakeFiles/Ping_Pong_SFML.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ping_Pong_SFML.dir/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Projects\C++\sfml\Ping-Pong-SFML\main.cpp -o CMakeFiles\Ping_Pong_SFML.dir\main.cpp.s
 
+CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.obj: CMakeFiles/Ping_Pong_SFML.dir/flags.make
+CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.obj: CMakeFiles/Ping_Pong_SFML.dir/includes_CXX.rsp
+CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.obj: ../Engine/InputHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\sfml\Ping-Pong-SFML\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ping_Pong_SFML.dir\Engine\InputHandler.cpp.obj -c F:\Projects\C++\sfml\Ping-Pong-SFML\Engine\InputHandler.cpp
+
+CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Projects\C++\sfml\Ping-Pong-SFML\Engine\InputHandler.cpp > CMakeFiles\Ping_Pong_SFML.dir\Engine\InputHandler.cpp.i
+
+CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Projects\C++\sfml\Ping-Pong-SFML\Engine\InputHandler.cpp -o CMakeFiles\Ping_Pong_SFML.dir\Engine\InputHandler.cpp.s
+
+CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.obj: CMakeFiles/Ping_Pong_SFML.dir/flags.make
+CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.obj: CMakeFiles/Ping_Pong_SFML.dir/includes_CXX.rsp
+CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.obj: ../Player/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\sfml\Ping-Pong-SFML\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ping_Pong_SFML.dir\Player\Player.cpp.obj -c F:\Projects\C++\sfml\Ping-Pong-SFML\Player\Player.cpp
+
+CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Projects\C++\sfml\Ping-Pong-SFML\Player\Player.cpp > CMakeFiles\Ping_Pong_SFML.dir\Player\Player.cpp.i
+
+CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Projects\C++\sfml\Ping-Pong-SFML\Player\Player.cpp -o CMakeFiles\Ping_Pong_SFML.dir\Player\Player.cpp.s
+
 # Object files for target Ping_Pong_SFML
 Ping_Pong_SFML_OBJECTS = \
-"CMakeFiles/Ping_Pong_SFML.dir/main.cpp.obj"
+"CMakeFiles/Ping_Pong_SFML.dir/main.cpp.obj" \
+"CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.obj" \
+"CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.obj"
 
 # External object files for target Ping_Pong_SFML
 Ping_Pong_SFML_EXTERNAL_OBJECTS =
 
 Ping_Pong_SFML.exe: CMakeFiles/Ping_Pong_SFML.dir/main.cpp.obj
+Ping_Pong_SFML.exe: CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.obj
+Ping_Pong_SFML.exe: CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.obj
 Ping_Pong_SFML.exe: CMakeFiles/Ping_Pong_SFML.dir/build.make
 Ping_Pong_SFML.exe: C:/SFML/lib/libsfml-graphics-d.a
 Ping_Pong_SFML.exe: C:/SFML/lib/libsfml-window-d.a
@@ -94,7 +126,7 @@ Ping_Pong_SFML.exe: C:/SFML/lib/libsfml-system-d.a
 Ping_Pong_SFML.exe: CMakeFiles/Ping_Pong_SFML.dir/linklibs.rsp
 Ping_Pong_SFML.exe: CMakeFiles/Ping_Pong_SFML.dir/objects1.rsp
 Ping_Pong_SFML.exe: CMakeFiles/Ping_Pong_SFML.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Projects\C++\sfml\Ping-Pong-SFML\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ping_Pong_SFML.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Projects\C++\sfml\Ping-Pong-SFML\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Ping_Pong_SFML.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Ping_Pong_SFML.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

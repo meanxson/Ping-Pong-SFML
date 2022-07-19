@@ -989,6 +989,22 @@ SFML/Audio.hpp
 -
 SFML/Network.hpp
 -
+../Player/Player.h
+F:/Projects/C++/sfml/Ping-Pong-SFML/Player/Player.h
+
+F:/Projects/C++/sfml/Ping-Pong-SFML/Player/Player.cpp
+Player.h
+F:/Projects/C++/sfml/Ping-Pong-SFML/Player/Player.h
+
+F:/Projects/C++/sfml/Ping-Pong-SFML/Player/Player.h
+SFML/Graphics.hpp
+-
+SFML/Window.hpp
+-
+SFML/Audio.hpp
+-
+SFML/Network.hpp
+-
 
 F:/Projects/C++/sfml/Ping-Pong-SFML/main.cpp
 iostream

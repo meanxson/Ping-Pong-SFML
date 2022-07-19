@@ -5,8 +5,6 @@ int main() {
     Game game;
 
     while (game.isGameRunning()) {
-        game
-                .render()
-                .update();
+        game.render().update();
     }
 }

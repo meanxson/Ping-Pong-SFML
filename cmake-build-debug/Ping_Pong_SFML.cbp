@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="F:/Projects/C++/sfml/Ping-Pong-SFML/Engine/InputHandler.cpp">
+			<Option target="Ping_Pong_SFML"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/sfml/Ping-Pong-SFML/Engine/InputHandler.h">
+			<Option target="Ping_Pong_SFML"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/sfml/Ping-Pong-SFML/Player/Player.cpp">
+			<Option target="Ping_Pong_SFML"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/sfml/Ping-Pong-SFML/Player/Player.h">
+			<Option target="Ping_Pong_SFML"/>
+		</Unit>
 		<Unit filename="F:/Projects/C++/sfml/Ping-Pong-SFML/main.cpp">
 			<Option target="Ping_Pong_SFML"/>
 		</Unit>

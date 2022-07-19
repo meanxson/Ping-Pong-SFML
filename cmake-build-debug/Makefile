@@ -128,6 +128,54 @@ Ping_Pong_SFML/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ping_Pong_SFML.dir\build.make CMakeFiles/Ping_Pong_SFML.dir/build
 .PHONY : Ping_Pong_SFML/fast
 
+Engine/InputHandler.obj: Engine/InputHandler.cpp.obj
+.PHONY : Engine/InputHandler.obj
+
+# target to build an object file
+Engine/InputHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ping_Pong_SFML.dir\build.make CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.obj
+.PHONY : Engine/InputHandler.cpp.obj
+
+Engine/InputHandler.i: Engine/InputHandler.cpp.i
+.PHONY : Engine/InputHandler.i
+
+# target to preprocess a source file
+Engine/InputHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ping_Pong_SFML.dir\build.make CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.i
+.PHONY : Engine/InputHandler.cpp.i
+
+Engine/InputHandler.s: Engine/InputHandler.cpp.s
+.PHONY : Engine/InputHandler.s
+
+# target to generate assembly for a file
+Engine/InputHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ping_Pong_SFML.dir\build.make CMakeFiles/Ping_Pong_SFML.dir/Engine/InputHandler.cpp.s
+.PHONY : Engine/InputHandler.cpp.s
+
+Player/Player.obj: Player/Player.cpp.obj
+.PHONY : Player/Player.obj
+
+# target to build an object file
+Player/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ping_Pong_SFML.dir\build.make CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.obj
+.PHONY : Player/Player.cpp.obj
+
+Player/Player.i: Player/Player.cpp.i
+.PHONY : Player/Player.i
+
+# target to preprocess a source file
+Player/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ping_Pong_SFML.dir\build.make CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.i
+.PHONY : Player/Player.cpp.i
+
+Player/Player.s: Player/Player.cpp.s
+.PHONY : Player/Player.s
+
+# target to generate assembly for a file
+Player/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ping_Pong_SFML.dir\build.make CMakeFiles/Ping_Pong_SFML.dir/Player/Player.cpp.s
+.PHONY : Player/Player.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Ping_Pong_SFML
+	@echo ... Engine/InputHandler.obj
+	@echo ... Engine/InputHandler.i
+	@echo ... Engine/InputHandler.s
+	@echo ... Player/Player.obj
+	@echo ... Player/Player.i
+	@echo ... Player/Player.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
